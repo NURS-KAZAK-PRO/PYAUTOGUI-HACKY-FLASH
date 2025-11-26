@@ -1,5 +1,14 @@
 import pyautogui, time, subprocess, os
-
+a = """
+##  ##  #######  ##        ##        #########  ##
+##  ##  ##       ##        ##        ##     ##  ##
+######  #######  ##        ##        ##     ##  ##
+######  #######  ##        ##        ##     ##  ##
+##  ##  ##       ##        ##        ##     ##  
+##  ##  #######  #######   ######    #########  ##
+"""
+print(a)
+time.sleep(1)
 # Start Notepad
 subprocess.Popen("notepad.exe")
 time.sleep(.1)
