@@ -4,3 +4,7 @@
 1.git clone https://github.com/NURS-KAZAK-PRO/PYAUTOGUI-HACKY-FLASH.git
 
 2.cd PYAUTOGUI-HACKY-FLASH
+
+3.python HACKY-FLASH.py
+
+4.done
