@@ -14,3 +14,10 @@ THIS NOT DANGER AT ALL VIRUSES
 
 
 made with python
+
+requirements:
+    pyautogui
+    os
+    subprocess
+    time
+
